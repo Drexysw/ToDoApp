@@ -20,6 +20,9 @@
     <ProjectReference Include="..\portfolio.client\portfolio.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\ToDoApp.Application\ToDoApp.Application.csproj" />
+    <ProjectReference Include="..\ToDoApp.Infrastructure\ToDoApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\ToDoApp.Presentation\ToDoApp.Presentation.csproj" />
   </ItemGroup>
 
   <ItemGroup>
